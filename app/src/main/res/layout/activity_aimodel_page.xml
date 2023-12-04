@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_page">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/back"></Button>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="A.I model details"
+                android:layout_marginLeft="15dp"
+                android:textColor="#050D37"
+                android:textSize="30sp">
+            </TextView>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_marginLeft="45dp"
+                android:id="@+id/gifImageView"
+                android:layout_width="390dp"
+                android:layout_height="200dp"
+                android:src="@drawable/model"
+                ></pl.droidsonroids.gif.GifImageView>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="390dp"
+            android:layout_height="30dp"
+            android:background="#F9FBEE"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:text="Machine learning model: Decision Tree "
+                android:textAlignment="textStart"
+                android:textColor="#050D37"
+                android:textSize="19sp"></TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="390dp"
+            android:layout_height="30dp"
+            android:background="#F9FBEE"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:text="Testing Method: K-fold cross validation"
+                android:textAlignment="textStart"
+                android:textColor="#050D37"
+                android:textSize="19sp"></TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="390dp"
+            android:layout_height="30dp"
+            android:background="#F9FBEE"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:text="Programming language: Python"
+                android:textAlignment="textStart"
+                android:textColor="#050D37"
+                android:textSize="19sp"></TextView>
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            >
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_marginLeft="45dp"
+                android:id="@+id/gifImageView96"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:src="@drawable/data2"
+                ></pl.droidsonroids.gif.GifImageView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="390dp"
+            android:layout_height="30dp"
+            android:background="#F9FBEE"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:text="Model training data: Medical Records"
+                android:textAlignment="textStart"
+                android:textColor="#050D37"
+                android:textSize="19sp"></TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="390dp"
+            android:layout_height="30dp"
+            android:background="#F9FBEE"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:text="Model testing data: Participants Records"
+                android:textAlignment="textStart"
+                android:textColor="#050D37"
+                android:textSize="19sp"></TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="390dp"
+            android:layout_height="30dp"
+            android:background="#F9FBEE"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:text="Server testing data: Cleveland dataset"
+                android:textAlignment="textStart"
+                android:textColor="#050D37"
+                android:textSize="19sp"></TextView>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            >
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_marginLeft="0dp"
+                android:id="@+id/gifImageView9896"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/app"
+                ></pl.droidsonroids.gif.GifImageView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="390dp"
+            android:layout_height="30dp"
+            android:background="#F9FBEE"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:text="Model infrastructure: Client / Server"
+                android:textAlignment="textStart"
+                android:textColor="#050D37"
+                android:textSize="19sp"></TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="390dp"
+            android:layout_height="30dp"
+            android:background="#F9FBEE"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:text="Programming languages:"
+                android:textAlignment="textStart"
+                android:textColor="#050D37"
+                android:textSize="19sp"></TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="390dp"
+            android:layout_height="30dp"
+            android:background="#F9FBEE"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:text="Python, Java, SQL"
+                android:textAlignment="textStart"
+                android:textColor="#050D37"
+                android:textSize="19sp"></TextView>
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

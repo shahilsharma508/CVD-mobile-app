@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_page">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/back"></Button>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Fiji's NCD Epidemie"
+                android:layout_marginLeft="15dp"
+                android:textColor="#050D37"
+                android:textSize="30sp">
+            </TextView>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="#F9FBEE"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:text="NCDs responsible for a serious health crisis in Fiji. For decades NCDs such as cardiovascular disease, diabetes, cancers and respiratory the disease is a major cause of premature deaths and amputations which collectively contributes to 80% of deaths in Fiji. According to WHO, Fiji is globally ranked 25th in annual deaths resulting from cardiovascular diseases."
+                android:textAlignment="textStart"
+                android:textColor="#050D37"
+                android:textSize="19sp"></TextView>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="390dp"
+            android:layout_height="250dp"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardUseCompatPadding="true"
+                >
+
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:id="@+id/image_slider2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:iss_auto_cycle="true"
+                    app:iss_period="3000"
+                    ></com.denzcoskun.imageslider.ImageSlider>
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="380dp"
+            android:layout_height="90dp"
+            android:background="#F9FBEE"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textAlignment="textStart"
+
+                android:text="Early detection of cardiovascular disease"
+                android:textColor="#050D37"
+                android:textSize="30sp">
+            </TextView>
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="#F9FBEE"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="The primary reason for undertaking this research is to design and implement a machine learning system to assist in the early detection of NCD in Fiji. To develop a system capable to predict the different levels of NCD risk by continuously collecting new medical data from users through a mobile app and make predictions using a machine-learning algorithm."
+                android:textAlignment="textStart"
+                android:textColor="#050D37"
+                android:textSize="19sp"></TextView>
+        </RelativeLayout>
+
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="90dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="300dp"
+            android:gravity="center"
+            android:layout_height="500dp"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardUseCompatPadding="true"
+                >
+
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:id="@+id/image_slider3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:iss_auto_cycle="true"
+                    app:iss_period="3000"
+                    ></com.denzcoskun.imageslider.ImageSlider>
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textAlignment="textStart"
+                android:text="Researchers"
+                android:textColor="#050D37"
+                android:textSize="30sp">
+            </TextView>
+        </RelativeLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            >
+          <androidx.cardview.widget.CardView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:cardCornerRadius="12dp"
+              app:cardUseCompatPadding="true"
+              >
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/image_slider"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:iss_auto_cycle="true"
+                app:iss_period="3000"
+                ></com.denzcoskun.imageslider.ImageSlider>
+
+          </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
